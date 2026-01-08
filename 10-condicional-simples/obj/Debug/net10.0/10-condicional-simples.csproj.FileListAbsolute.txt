@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\10-condicional-simples\bin\Debug\net10.0\10-condicional-simples.exe
+C:\Logica-C-Sharp\10-condicional-simples\bin\Debug\net10.0\10-condicional-simples.deps.json
+C:\Logica-C-Sharp\10-condicional-simples\bin\Debug\net10.0\10-condicional-simples.runtimeconfig.json
+C:\Logica-C-Sharp\10-condicional-simples\bin\Debug\net10.0\10-condicional-simples.dll
+C:\Logica-C-Sharp\10-condicional-simples\bin\Debug\net10.0\10-condicional-simples.pdb
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.AssemblyInfo.cs
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.sourcelink.json
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.dll
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\refint\10-condicional-simples.dll
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.pdb
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\10-condicional-simples.genruntimeconfig.cache
+C:\Logica-C-Sharp\10-condicional-simples\obj\Debug\net10.0\ref\10-condicional-simples.dll
