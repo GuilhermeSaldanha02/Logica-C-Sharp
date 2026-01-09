@@ -1,0 +1,15 @@
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\bin\Debug\net10.0\exercicio03.exe
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\bin\Debug\net10.0\exercicio03.deps.json
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\bin\Debug\net10.0\exercicio03.runtimeconfig.json
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\bin\Debug\net10.0\exercicio03.dll
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\bin\Debug\net10.0\exercicio03.pdb
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.GeneratedMSBuildEditorConfig.editorconfig
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.AssemblyInfoInputs.cache
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.AssemblyInfo.cs
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.csproj.CoreCompileInputs.cache
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.sourcelink.json
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.dll
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\refint\exercicio03.dll
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.pdb
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\exercicio03.genruntimeconfig.cache
+C:\exercicios-csharp-basico\resolucao-exercicios\exercicio03\obj\Debug\net10.0\ref\exercicio03.dll
