@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\14-estrutura-de-escolha\bin\Debug\net10.0\14-estrutura-de-escolha.exe
+C:\Logica-C-Sharp\14-estrutura-de-escolha\bin\Debug\net10.0\14-estrutura-de-escolha.deps.json
+C:\Logica-C-Sharp\14-estrutura-de-escolha\bin\Debug\net10.0\14-estrutura-de-escolha.runtimeconfig.json
+C:\Logica-C-Sharp\14-estrutura-de-escolha\bin\Debug\net10.0\14-estrutura-de-escolha.dll
+C:\Logica-C-Sharp\14-estrutura-de-escolha\bin\Debug\net10.0\14-estrutura-de-escolha.pdb
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.AssemblyInfo.cs
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.sourcelink.json
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.dll
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\refint\14-estrutura-de-escolha.dll
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.pdb
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\14-estrutura-de-escolha.genruntimeconfig.cache
+C:\Logica-C-Sharp\14-estrutura-de-escolha\obj\Debug\net10.0\ref\14-estrutura-de-escolha.dll
