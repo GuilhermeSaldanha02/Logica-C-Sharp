@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "15-laco-enquanto/1.0.0": {
+        "runtime": {
+          "15-laco-enquanto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "15-laco-enquanto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

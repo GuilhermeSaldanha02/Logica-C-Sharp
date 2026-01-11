@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.AssemblyInfo.cs
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.sourcelink.json
+C:\Logica-C-Sharp\15-laco-enquanto\bin\Debug\net10.0\15-laco-enquanto.exe
+C:\Logica-C-Sharp\15-laco-enquanto\bin\Debug\net10.0\15-laco-enquanto.deps.json
+C:\Logica-C-Sharp\15-laco-enquanto\bin\Debug\net10.0\15-laco-enquanto.runtimeconfig.json
+C:\Logica-C-Sharp\15-laco-enquanto\bin\Debug\net10.0\15-laco-enquanto.dll
+C:\Logica-C-Sharp\15-laco-enquanto\bin\Debug\net10.0\15-laco-enquanto.pdb
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.dll
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\refint\15-laco-enquanto.dll
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.pdb
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\15-laco-enquanto.genruntimeconfig.cache
+C:\Logica-C-Sharp\15-laco-enquanto\obj\Debug\net10.0\ref\15-laco-enquanto.dll
