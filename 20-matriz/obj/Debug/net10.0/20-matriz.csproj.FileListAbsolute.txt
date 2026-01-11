@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.AssemblyInfo.cs
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.sourcelink.json
+C:\Logica-C-Sharp\20-matriz\bin\Debug\net10.0\20-matriz.exe
+C:\Logica-C-Sharp\20-matriz\bin\Debug\net10.0\20-matriz.deps.json
+C:\Logica-C-Sharp\20-matriz\bin\Debug\net10.0\20-matriz.runtimeconfig.json
+C:\Logica-C-Sharp\20-matriz\bin\Debug\net10.0\20-matriz.dll
+C:\Logica-C-Sharp\20-matriz\bin\Debug\net10.0\20-matriz.pdb
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.dll
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\refint\20-matriz.dll
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.pdb
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\20-matriz.genruntimeconfig.cache
+C:\Logica-C-Sharp\20-matriz\obj\Debug\net10.0\ref\20-matriz.dll
