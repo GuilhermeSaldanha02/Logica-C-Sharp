@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\18-vetor\bin\Debug\net10.0\18-vetor.exe
+C:\Logica-C-Sharp\18-vetor\bin\Debug\net10.0\18-vetor.deps.json
+C:\Logica-C-Sharp\18-vetor\bin\Debug\net10.0\18-vetor.runtimeconfig.json
+C:\Logica-C-Sharp\18-vetor\bin\Debug\net10.0\18-vetor.dll
+C:\Logica-C-Sharp\18-vetor\bin\Debug\net10.0\18-vetor.pdb
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.AssemblyInfo.cs
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.sourcelink.json
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.dll
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\refint\18-vetor.dll
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.pdb
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\18-vetor.genruntimeconfig.cache
+C:\Logica-C-Sharp\18-vetor\obj\Debug\net10.0\ref\18-vetor.dll
