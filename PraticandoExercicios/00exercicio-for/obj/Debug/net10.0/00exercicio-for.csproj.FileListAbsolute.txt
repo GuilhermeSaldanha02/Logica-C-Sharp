@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.AssemblyInfo.cs
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.sourcelink.json
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\bin\Debug\net10.0\00exercicio-for.exe
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\bin\Debug\net10.0\00exercicio-for.deps.json
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\bin\Debug\net10.0\00exercicio-for.runtimeconfig.json
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\bin\Debug\net10.0\00exercicio-for.dll
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\bin\Debug\net10.0\00exercicio-for.pdb
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.dll
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\refint\00exercicio-for.dll
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.pdb
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\00exercicio-for.genruntimeconfig.cache
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-for\obj\Debug\net10.0\ref\00exercicio-for.dll

@@ -10,16 +10,22 @@
         "projectUniqueName": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-for\\00exercicio-for.csproj",
         "projectName": "00exercicio-for",
         "projectPath": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-for\\00exercicio-for.csproj",
-        "packagesPath": "C:\\Users\\danin\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\teens\\.nuget\\packages\\",
         "outputPath": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-for\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\danin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\teens\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
