@@ -1,0 +1,15 @@
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\bin\Debug\net10.0\00exercicio-While.exe
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\bin\Debug\net10.0\00exercicio-While.deps.json
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\bin\Debug\net10.0\00exercicio-While.runtimeconfig.json
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\bin\Debug\net10.0\00exercicio-While.dll
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\bin\Debug\net10.0\00exercicio-While.pdb
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.AssemblyInfoInputs.cache
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.AssemblyInfo.cs
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.csproj.CoreCompileInputs.cache
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.sourcelink.json
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.dll
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\refint\00exercicio-While.dll
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.pdb
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\00exercicio-While.genruntimeconfig.cache
+C:\Logica-C-Sharp\PraticandoExercicios\00exercicio-while\obj\Debug\net10.0\ref\00exercicio-While.dll
