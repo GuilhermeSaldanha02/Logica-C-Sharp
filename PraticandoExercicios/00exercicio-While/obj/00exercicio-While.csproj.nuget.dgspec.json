@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-while\\00exercicio-While.csproj": {}
+    "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-While\\00exercicio-While.csproj": {}
   },
   "projects": {
-    "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-while\\00exercicio-While.csproj": {
+    "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-While\\00exercicio-While.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-while\\00exercicio-While.csproj",
+        "projectUniqueName": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-While\\00exercicio-While.csproj",
         "projectName": "00exercicio-While",
-        "projectPath": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-while\\00exercicio-While.csproj",
+        "projectPath": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-While\\00exercicio-While.csproj",
         "packagesPath": "C:\\Users\\teens\\.nuget\\packages\\",
-        "outputPath": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-while\\obj\\",
+        "outputPath": "C:\\Logica-C-Sharp\\PraticandoExercicios\\00exercicio-While\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
