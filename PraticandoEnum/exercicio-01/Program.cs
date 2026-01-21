@@ -1,22 +1,22 @@
-﻿enum OperacaoBancaria {Sacar, Depositar, VerSaldo, Sair}
+﻿using PraticandoEnum.Enum;
 
-OperacaoBancaria acao = OperacaoBancaria.Sacar;
+OperacaoBancariaEnum acao = OperacaoBancariaEnum.Sacar;
 
 switch (acao)
 {
-    case OperacaoBancaria.Sacar:
+    case OperacaoBancariaEnum.Sacar:
     Console.WriteLine("Sacando dinheiro");        
     break;
 
-    case OperacaoBancaria.Depositar:
+    case OperacaoBancariaEnum.Depositar:
     Console.WriteLine("Depositando dinheiro");
     break;
-
-    case OperacaoBancaria.VerSaldo:
+    
+    case OperacaoBancariaEnum.VerSaldo:
     Console.WriteLine("Seu saldo é R$ 10,00");
     break;
 
-    case OperacaoBancaria.Sair:
+    case OperacaoBancariaEnum.Sair:
     Console.WriteLine("Saindo");
     break;
 
