@@ -1,6 +1,4 @@
-﻿using Restaurante.Dominio;
-
-List<string> nomesPratos = [];
+﻿List<string> nomesPratos = [];
 List<double> valoresPedidos = [];
 List<CategoriaPrato> categorias = [];
 List<StatusPedido> statusPedidos = [];
@@ -46,6 +44,7 @@ for (int i = 0; i < quantidade; i++)
         Console.WriteLine("Categoria inválida!");
     }
 
+
     while (true)
     {
         Console.WriteLine("Status: 1-Pendente, 2-Em Preparação, 3-Pronto, 4-Entregue, 5-Cancelado");
@@ -59,7 +58,7 @@ for (int i = 0; i < quantidade; i++)
     }
 }
 
-Console.WriteLine();
+
 Console.WriteLine("=== TAREFA 2: TAXAS DE SERVIÇO ===");
 
 for (int i = 0; i < nomesPratos.Count; i++)
@@ -76,103 +75,140 @@ for (int i = 0; i < nomesPratos.Count; i++)
     double total = valoresPedidos[i] * (1 + taxa);
     valoresFinais.Add(total);
 
-    Console.WriteLine($"Pedido: {nomesPratos[i]} | Categoria: {categorias[i]} | Taxa: {taxa:P0} | Final: {total:C}");
+    Console.WriteLine($"Pedido: {nomesPratos[i]} | Taxa: {taxa:P0} | Total: {total:C}");
 }
 
 Console.WriteLine();
 Console.WriteLine("=== TAREFA 3: RESUMO POR STATUS ===");
 
-List<string> pendentes = [], emPreparo = [], prontos = [], entregues = [], cancelados = [];
+
+int quantidadePendente = 0, quantidadePreparo = 0, quantidadePronto = 0, quantidadeEntregue = 0, quantidadeCancelado = 0;
+double valPendente = 0, valPreparo = 0, valPronto = 0, valEntregue = 0, valCancelado = 0;
 
 for (int i = 0; i < statusPedidos.Count; i++)
 {
-    string resumo = $"{nomesPratos[i]} ({valoresFinais[i]:C})";
-
+    double val = valoresFinais[i];
     switch (statusPedidos[i])
     {
-        case StatusPedido.Pendente: pendentes.Add(resumo); break;
-        case StatusPedido.EmPreparacao: emPreparo.Add(resumo); break;
-        case StatusPedido.Pronto: prontos.Add(resumo); break;
-        case StatusPedido.Entregue: entregues.Add(resumo); break;
-        case StatusPedido.Cancelado: cancelados.Add(resumo); break;
+        case StatusPedido.Pendente: quantidadePendente++; valPendente += val; break;
+        case StatusPedido.EmPreparacao: quantidadePreparo++; valPreparo += val; break;
+        case StatusPedido.Pronto: quantidadePronto++; valPronto += val; break;
+        case StatusPedido.Entregue: quantidadeEntregue++; valEntregue += val; break;
+        case StatusPedido.Cancelado: quantidadeCancelado++; valCancelado += val; break;
     }
 }
 
-Console.WriteLine($"Pendentes: {pendentes.Count} | Cozinha: {emPreparo.Count} | Prontos: {prontos.Count} | Entregues: {entregues.Count} | Cancelados: {cancelados.Count}");
+Console.WriteLine($"Pendentes: {quantidadePendente} (Total: {valPendente:C})");
+Console.WriteLine($"Em Preparo: {quantidadePreparo} (Total: {valPreparo:C})");
+Console.WriteLine($"Prontos:    {quantidadePronto} (Total: {valPronto:C})");
+Console.WriteLine($"Entregues:  {quantidadeEntregue} (Total: {valEntregue:C})");
+Console.WriteLine($"Cancelados: {quantidadeCancelado} (Total: {valCancelado:C})");
 
 Console.WriteLine();
 Console.WriteLine("=== TAREFA 4: ATUALIZAÇÃO EM LOTE ===");
 Console.WriteLine("Deseja atualizar status em massa? (S/N)");
 if (Console.ReadLine()?.ToUpper() == "S")
 {
-    Console.Write("Mudar de (Status 1-5): ");
+    Console.Write("De (Status 1-5): ");
     int.TryParse(Console.ReadLine(), out int de);
-
     Console.Write("Para (Status 1-5): ");
     int.TryParse(Console.ReadLine(), out int para);
 
     if (Enum.IsDefined(typeof(StatusPedido), de) && Enum.IsDefined(typeof(StatusPedido), para))
     {
-        var statusDe = (StatusPedido)de;
-        var statusPara = (StatusPedido)para;
-        int contagem = 0;
+        var sDe = (StatusPedido)de;
+        var sPara = (StatusPedido)para;
+        int count = 0;
 
         for (int i = 0; i < statusPedidos.Count; i++)
         {
-            if (statusPedidos[i] == statusDe)
+            if (statusPedidos[i] == sDe)
             {
-                statusPedidos[i] = statusPara;
-                contagem++;
+                statusPedidos[i] = sPara;
+                count++;
             }
         }
-        Console.WriteLine($"Atualizado: {contagem} pedidos passaram de {statusDe} para {statusPara}.");
+        Console.WriteLine($"{count} pedidos atualizados de {sDe} para {sPara}.");
     }
 }
 
 Console.WriteLine();
-Console.WriteLine("=== TAREFA 5: ESTIMATIVA DE TEMPO ===");
-int tempoTotal = 0;
+Console.WriteLine("=== TAREFA 5: RELATÓRIO POR CATEGORIA ===");
+int tempoTotalGeral = 0;
+CategoriaPrato? catMaisPedidos = null;
+int maiorQtdCategoria = -1;
 
-for (int i = 0; i < categorias.Count; i++)
+
+foreach (CategoriaPrato catTipo in Enum.GetValues(typeof(CategoriaPrato)))
 {
-    if (statusPedidos[i] == StatusPedido.Cancelado) continue;
+    int qtdNessaCat = 0;
+    double faturamentoCat = 0;
+    int tempoCat = 0;
 
-    tempoTotal += categorias[i] switch
+    for (int i = 0; i < categorias.Count; i++)
     {
-        CategoriaPrato.Entrada => 15,
-        CategoriaPrato.PratoPrincipal => 30,
-        CategoriaPrato.Sobremesa => 20,
-        CategoriaPrato.Bebida => 5,
-        _ => 0
-    };
+
+        if (categorias[i] == catTipo && statusPedidos[i] != StatusPedido.Cancelado)
+        {
+            qtdNessaCat++;
+            faturamentoCat += valoresFinais[i];
+
+            tempoCat += catTipo switch
+            {
+                CategoriaPrato.Entrada => 15,
+                CategoriaPrato.PratoPrincipal => 30,
+                CategoriaPrato.Sobremesa => 20,
+                CategoriaPrato.Bebida => 5,
+                _ => 0
+            };
+        }
+    }
+
+    tempoTotalGeral += tempoCat;
+
+    if (qtdNessaCat > 0)
+    {
+        Console.WriteLine($"Categoria: {catTipo} | Qtd: {qtdNessaCat} | Faturamento: {faturamentoCat:C} | Tempo: {tempoCat}min");
+    }
+
+    if (qtdNessaCat > maiorQtdCategoria)
+    {
+        maiorQtdCategoria = qtdNessaCat;
+        catMaisPedidos = catTipo;
+    }
 }
-Console.WriteLine($"Tempo total estimado de preparo (pedidos ativos): {tempoTotal} minutos");
+Console.WriteLine($"Tempo Total Cozinha: {tempoTotalGeral} minutos");
+Console.WriteLine($"Categoria mais popular: {catMaisPedidos}");
+
 
 Console.WriteLine();
-Console.WriteLine("=== TAREFA 6: ANÁLISE GERAL ===");
-double faturamentoReal = 0;
-int ativos = 0;
+Console.WriteLine("=== TAREFA 6: DASHBOARD ===");
+double faturamentoEntregues = 0;
+int[] contadorStatus = new int[6];
 
 for (int i = 0; i < statusPedidos.Count; i++)
 {
     string acao = statusPedidos[i] switch
     {
-        StatusPedido.Pendente => "Aguardando início",
-        StatusPedido.EmPreparacao => "Fogo alto!",
-        StatusPedido.Pronto => "Liberado para entrega",
-        StatusPedido.Entregue => "Concluído",
-        StatusPedido.Cancelado => "Descartar",
-        _ => "Desconhecido"
+        StatusPedido.Pendente => "Aguardando...",
+        StatusPedido.EmPreparacao => "Cozinhando...",
+        StatusPedido.Pronto => "Liberado!",
+        StatusPedido.Entregue => "Finalizado.",
+        StatusPedido.Cancelado => "X",
+        _ => "?"
     };
 
-    Console.WriteLine($"Pedido {i + 1}: {nomesPratos[i]} -> {acao}");
+    Console.WriteLine($"#{i + 1} {nomesPratos[i]} -> {statusPedidos[i]} ({acao})");
+
+
+    int idxStatus = (int)statusPedidos[i];
+    contadorStatus[idxStatus]++;
 
     if (statusPedidos[i] == StatusPedido.Cancelado) continue;
 
-    ativos++;
     if (statusPedidos[i] == StatusPedido.Entregue)
     {
-        faturamentoReal += valoresFinais[i];
+        faturamentoEntregues += valoresFinais[i];
     }
 }
 
@@ -181,9 +217,24 @@ if (valoresFinais.Count > 0)
     double maxVal = valoresFinais.Max();
     string pratoCaro = nomesPratos[valoresFinais.IndexOf(maxVal)];
 
+
+    int maxStatusCount = 0;
+    StatusPedido statusMaisFreq = StatusPedido.Pendente;
+    for (int s = 1; s <= 5; s++)
+    {
+        if (contadorStatus[s] > maxStatusCount)
+        {
+            maxStatusCount = contadorStatus[s];
+            statusMaisFreq = (StatusPedido)s;
+        }
+    }
+
+
     Console.WriteLine();
+    Console.WriteLine("--- Estatísticas Finais ---");
     Console.WriteLine($"Prato mais caro: {pratoCaro} ({maxVal:C})");
-    Console.WriteLine($"Faturamento (Entregues): {faturamentoReal:C}");
+    Console.WriteLine($"Faturamento (Entregues): {faturamentoEntregues:C}");
+    Console.WriteLine($"Status com mais pedidos: {statusMaisFreq}");
 }
 
 Console.WriteLine();
@@ -191,31 +242,44 @@ Console.WriteLine("=== TAREFA 7: BUSCAR PEDIDO ===");
 Console.Write("Busque por nome: ");
 string busca = Console.ReadLine() ?? "";
 
-int indexBusca = nomesPratos.FindIndex(n => n.Equals(busca, StringComparison.OrdinalIgnoreCase));
+int idx = nomesPratos.FindIndex(n => n.Equals(busca, StringComparison.OrdinalIgnoreCase));
 
-if (indexBusca != -1)
+if (idx != -1)
 {
-    Console.WriteLine();
-    Console.WriteLine($"ENCONTRADO: {nomesPratos[indexBusca]}");
-    Console.WriteLine($"Categoria: {categorias[indexBusca]}");
-    Console.WriteLine($"Status: {statusPedidos[indexBusca]}");
-    Console.WriteLine($"Valor Final: {valoresFinais[indexBusca]:C}");
-
+    Console.WriteLine($"Encontrado: {nomesPratos[idx]} | {categorias[idx]} | {statusPedidos[idx]} | {valoresFinais[idx]:C}");
     Console.Write("Alterar status? (S/N): ");
     if (Console.ReadLine()?.ToUpper() == "S")
     {
         Console.Write("Novo Status (1-5): ");
-        if (int.TryParse(Console.ReadLine(), out int novoSt) && Enum.IsDefined(typeof(StatusPedido), novoSt))
+        if (int.TryParse(Console.ReadLine(), out int ns) && Enum.IsDefined(typeof(StatusPedido), ns))
         {
-            statusPedidos[indexBusca] = (StatusPedido)novoSt;
-            Console.WriteLine($"Status alterado para {statusPedidos[indexBusca]}!");
+            statusPedidos[idx] = (StatusPedido)ns;
+            Console.WriteLine("Status atualizado!");
         }
     }
 }
 else
 {
-    Console.WriteLine("Pedido não encontrado.");
+    Console.WriteLine("Não encontrado.");
 }
 
 Console.WriteLine();
 Console.WriteLine("Fim do Programa.");
+Console.ReadKey();
+
+public enum StatusPedido
+{
+    Pendente = 1,
+    EmPreparacao = 2,
+    Pronto = 3,
+    Entregue = 4,
+    Cancelado = 5
+}
+
+public enum CategoriaPrato
+{
+    Entrada = 1,
+    PratoPrincipal = 2,
+    Sobremesa = 3,
+    Bebida = 4
+}
