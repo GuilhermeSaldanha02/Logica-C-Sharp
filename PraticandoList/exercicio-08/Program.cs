@@ -1,4 +1,6 @@
-﻿List<string> guardarNomes = [];
+﻿MostrarCabecalho();
+
+List<string> guardarNomes = [];
 
 while (true)
 {
@@ -15,8 +17,7 @@ while (true)
 
             else
             {
-                Console.WriteLine("Digite seu nome: ");
-                string nome1 = Console.ReadLine();
+                string nome1 = LerTexto("Digite seu nome: "); 
                 if (guardarNomes.Contains(nome1))
                 {
                     Console.WriteLine($"{nome1} já existe na lista");
@@ -30,8 +31,7 @@ while (true)
             break;
 
         case "2":
-            Console.WriteLine("Digite seu nome: ");
-            string nome2 = Console.ReadLine();
+            string nome2 = LerTexto("Digite o nome para remover: ");
             if (guardarNomes.Contains(nome2))
             {
                 Console.WriteLine($"{nome2} existe na lista e foi removido.");
@@ -67,4 +67,17 @@ void MostrarMenu()
     Console.WriteLine("3 - LISTAR");
     Console.WriteLine("4 - SAIR");
     Console.WriteLine("Digite uma opção:");
+}
+
+void MostrarCabecalho()
+{
+    Console.WriteLine("##################################");
+    Console.WriteLine("### SISTEMA VIP DO GUILHERME ###");
+    Console.WriteLine("##################################");
+}
+
+string LerTexto(string pergunta)
+{
+    Console.WriteLine(pergunta);
+    return Console.ReadLine();
 }
